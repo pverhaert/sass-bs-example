@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sass-Bootstrap Example</title>
+</head>
+<body>
+<div class="container">
+    <header class="text-itfactory py-6">
+        <h1>Sass-Bootstrap
+            <small class="text-muted">Example</small>
+        </h1>
+        <hr class="mb-4">
+    </header>
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias,
+                aliquid
+                corporis deserunt eos
+                exercitationem explicabo id molestiae nemo perspiciatis quasi ut vero voluptatibus?
+                Ducimus enim
+                expedita
+                reprehenderit sit veritatis.
+            </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="alert alert-primary alert-dismissible fade show">
+                This is a primary alert
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-danger alert-dismissible fade show">
+                This is a danger alert
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-success alert-dismissible fade show">
+                This is a success alert
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top"
+                        title="Tooltip on top"><i class="fa-solid fa-home"></i> Home
+                </button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-users"></i> Users</button>
+                <button type="button" class="btn btn-outline-success"
+                        data-bs-toggle="modal"
+                        data-bs-target="#imageModal"><i
+                    class="fa-solid fa-image"></i> Image modal
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="imageModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Image @ Delfi de la Rua</h5>
+            </div>
+            <div class="modal-body">
+                <img src="https://picsum.photos/id/935/600/400" class="img-fluid" alt="Delfi de la Rua">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

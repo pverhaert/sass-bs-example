@@ -1,0 +1,30 @@
+// @use "sass:color";
+
+// $font-family-sans-serif: 'Abel', sans-serif;
+// $font-family-titles: 'Abril Fatface', cursive;
+
+/*
+$itfactory: #607b60;
+$theme-colors: map-merge($theme-colors, (
+        "primary": midnightblue,
+        "danger": rgb(175, 35, 35),
+        "itfactory": $itfactory,
+));
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+$utilities-colors: map-merge($utilities-colors, $theme-colors-rgb);
+$utilities-text-colors: map-loop($utilities-colors, rgba-css-var, "$key", "text");
+$utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
+*/
+
+/*
+$enable-rounded: false;
+$enable-shadows: true;
+
+$spacers: map-merge($spacers,(
+        6: 6rem,
+));
+
+$body-bg: color.scale($itfactory, $lightness: 90%);
+
+$alert-border-width: 5px;
+*/
