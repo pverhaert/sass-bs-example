@@ -8,7 +8,6 @@ const newer = require('gulp-newer');
 const sass = require('gulp-dart-sass');
 const prefix = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
-const postcss = require('gulp-postcss');
 const gcmqp = require('gulp-css-mqpacker');
 
 // Copy Bootstrap JS-files
